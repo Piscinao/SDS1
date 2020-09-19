@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { ReactComponent as ArrowIcon } from '../../assets/arrow.svg';
 import { ReactComponent as Gamer } from '../../assets/gamer.svg';
 
 import './styles.css';
 
-const Home = () => (
+const Records = () => (
   <div className="home-container">
     <div className="home-text">
       <h1 className="home-text-title">
@@ -17,11 +16,9 @@ const Home = () => (
         Clique no botão abaixo e saiba quais são os jogos que os gamers estão escolhendo
       </h3>
 
-      <Link to="/records">
-
       <div className="home-actions">
         <button className="home-btn">
-          QUERO SABER QUAIS SÃO
+          QUERO SABER QUAIS asaaaa
         </button>
 
         <div className="home-btn-icon">
@@ -30,8 +27,6 @@ const Home = () => (
 
         
       </div>
-
-      </Link>
 
     
 
@@ -42,4 +37,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Records;
