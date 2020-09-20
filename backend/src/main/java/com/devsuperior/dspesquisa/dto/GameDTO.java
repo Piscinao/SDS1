@@ -38,12 +38,12 @@ public class GameDTO implements Serializable {
 		this.title = title;
 	}
 
-	public Platform getPlataform() {
+	public Platform getPlatform() {
 		return platform;
 	}
 
-	public void setPlataform(Platform plataform) {
-		this.platform = plataform;
+	public void setPlataform(Platform platform) {
+		this.platform = platform;
 	}
 	
 	
